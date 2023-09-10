@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="" href="../singlepageproduct/productstyle.css">
+    <title>SingleProduct</title>
+</head>
+
+<body>
+    <div id="singleProduct" class="paddingSection">
+        <div class="img_section_handle">
+            <img src="./img/1.jpg" id="mainImg" />
+
+            <div class="small-img">
+                <img src="./img/5.jpg" class="smallImg"  width="100%" />
+                <img src="./img/3.jpg"class="smallImg"   width="100%" />
+                <img src="./img/4.jpg" class="smallImg"  width="100%"  />
+                <img src="./img/5.jpg" class="smallImg"  width="100%"  />
+            </div>
+        </div>
+        <div class="img-single-content">
+            <h4>Home/Service for Camera</h4>
+            <h2>Cannon Camera's</h2>
+            <select id="singleProduct_selection">
+                <option>XL</option>
+                <option>SM</option>
+                <option>XXL</option>
+                <option>2XL</option>
+            </select>
+            <button class="normal">Add to cart</button>
+            <p>
+                A camera is an optical instrument used to capture and store images or videos, either digitally via an electronic image sensor, or chemically via a light-sensitive material such as photographic film.
+                A camera is an optical instrument used to capture and store images or videos, either digitally via an electronic image sensor, or chemically via a light-sensitive material such as photographic film.
+              
+            </p>
+        </div>
+    </div>
+    <script>
+        var mainImg = document.getElementById("mainImg");
+        var smallImg = document.getElementsByClassName("smallImg");
+        console.log(smallImg)
+       
+        smallImg[0].onclick =function(){
+            mainImg.src = smallImg[0].src
+        }
+        smallImg[1].onclick =function(){
+            mainImg.src = smallImg[1].src
+        }
+        smallImg[2].onclick = function(){
+            mainImg.src= smallImg[2].src
+        }
+        smallImg[3].onclick = function(){
+            mainImg.src= smallImg[3].src
+        }
+       
+        
+    </script>
+</body>
+
+</html>

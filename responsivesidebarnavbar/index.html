@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="nav">
+        <!-- large device nav start here  -->
+        <div id="largeSide" class="largeside">
+            <div class="logo">logo</div>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+
+            </ul>
+         </div>
+<!-- large device nav end here  -->
+
+        <!-- mobile device start here  -->
+        <div class="mobile_nav">
+            <div class="logo">logo</div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+
+
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"></i></span>
+        </div>
+            <!-- mobile device end here  -->
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
