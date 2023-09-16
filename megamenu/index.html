@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css">
+
+    <link rel="stylesheet" type="" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="logo">
+            <img src="https://media.bitsol.tech/wp-content/uploads/2023/05/Logo-Black-Large.png" width="100" />
+        </div>
+        <ul class="exo-menu">
+            <li class="drop-down"><a href="#"> Company &nbsp; <i class="fa fa-sort-desc fa-1x"
+                        style="position: absolute; top: 19px; color: rgb(185, 184, 184);" aria-hidden="true"></i></a>
+                <!--Drop Down-->
+                <ul class="drop-down-ul animated fadeIn">
+                    <li class="flyout-right"><a href="#">ABOUT US</a><!--Flyout Right-->
+                        <ul class="animated fadeIn">
+                            <li><a href="#">Life At Bitsol</a></li>
+                        </ul>
+                    </li>
+                    <li class="flyout-right"><a href="#">RESOURCES</a><!--Flyout Right-->
+                        <ul class="animated fadeIn">
+                            <li><a href="#">BLOGS</a></li>
+                            <li><a href="#">MERN BOOTCAMP 2022</a></li>
+                        </ul>
+                    </li>
+                    <li class="flyout-right"><a href="#">NEWS & EVENTS</a><!--Flyout Right-->
+                        <ul class="animated fadeIn">
+                            <li><a href="#">TECHCRUNCH 2023</a></li>
+                            <li><a href="#">LONDON TECHVERSE 2023</a></li>
+                            <li><a href="#">ITCN LONDON 2023</a></li>
+                            <li><a href="#">LEAP TECH CONFIDENCE 2023</a></li>
+                            <li><a href="#">CARRIERS</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <!-- Flyout Left
+                    <li class="flyout-left"><a href="#">Flyout Left</a>
+                        <ul class="animated fadeIn">
+                            <li><a href="#">Mobile</a></li>
+                            <li><a href="#">Computer</a></li>
+                            <li><a href="#">Watch</a></li>
+                        </ul>
+                    </li> -->
+
+
+
+                </ul>
+                <!--//End drop down-->
+
+            </li>
+
+            <!-- 2nd li list  -->
+            <li class="drop-down"><a href="#"> Services &nbsp; <i class="fa fa-sort-desc fa-1x"
+                        style="position: absolute; top: 19px; color:  rgb(185, 184, 184);" aria-hidden="true"></i> </a>
+                <!--Drop Down-->
+                <ul class="drop-down-ul animated fadeIn">
+
+                    <li class="flyout-right"><a href="#">AI&ML</a>
+                    <li class="flyout-right"><a href="#">Internet of Things (IOT)</a>
+                    <li class="flyout-right"><a href="#">DEVOPS & DATA SECURITY</a>
+                    <li class="flyout-right"><a href="#">MICROSOFT POWER PLATFORM</a>
+
+
+                    </li>
+                    <li class="flyout-right"><a href="#">WEB & APPS DEVELOPMENT</a><!--Flyout Right-->
+                        <ul class="animated fadeIn">
+                            <li><a href="#">WEB DEVELOPMENT</a></li>
+                            <li><a href="#">MOBILE DEVELOPMENT</a></li>
+
+                        </ul>
+                    </li>
+
+
+
+
+
+                </ul>
+
+
+            </li>
+
+            <li class="drop-down"><a href="#">Our Work</a></li>
+            <li class="drop-down"><a href="#">Pricing</a></li>
+            <li class="drop-down"><a href="#">Contact Us</a></li>
+        </ul>
+
+        <!-- mobile menu bar start here  -->
+
+        <div class="mobile_nav">
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul class="exo-menu">
+                    <li class="drop-down"><a href="#"> Company &nbsp; <i class="fa fa-sort-desc fa-1x"
+                                style="position: absolute; top: 19px; color: rgb(185, 184, 184);" aria-hidden="true"></i></a>
+                        <!--Drop Down-->
+                        <ul class="drop-down-ul-mobile ">
+                            <li class="flyout-right-mobile"><a href="#">ABOUT US</a><!--Flyout Right-->
+                                <ul class="animated fadeIn">
+                                    <li><a href="#">Life At Bitsol</a></li>
+                                </ul>
+                            </li>
+                            <li class="flyout-right"><a href="#">RESOURCES</a><!--Flyout Right-->
+                                <ul class="animated fadeIn">
+                                    <li><a href="#">BLOGS</a></li>
+                                    <li><a href="#">MERN BOOTCAMP 2022</a></li>
+                                </ul>
+                            </li>
+                            <li class="flyout-right"><a href="#">NEWS & EVENTS</a><!--Flyout Right-->
+                                <ul class="animated fadeIn">
+                                    <li><a href="#">TECHCRUNCH 2023</a></li>
+                                    <li><a href="#">LONDON TECHVERSE 2023</a></li>
+                                    <li><a href="#">ITCN LONDON 2023</a></li>
+                                    <li><a href="#">LEAP TECH CONFIDENCE 2023</a></li>
+                                    <li><a href="#">CARRIERS</a></li>
+                                </ul>
+                            </li>
+        
+        
+        
+                            <!-- Flyout Left
+                            <li class="flyout-left"><a href="#">Flyout Left</a>
+                                <ul class="animated fadeIn">
+                                    <li><a href="#">Mobile</a></li>
+                                    <li><a href="#">Computer</a></li>
+                                    <li><a href="#">Watch</a></li>
+                                </ul>
+                            </li> -->
+        
+        
+        
+                        </ul>
+                        <!--//End drop down-->
+        
+                    </li>
+        
+                    <!-- 2nd li list  -->
+                    <li class="drop-down"><a href="#"> Services &nbsp; <i class="fa fa-sort-desc fa-1x"
+                                style="position: absolute; top: 19px; color:  rgb(185, 184, 184);" aria-hidden="true"></i> </a>
+                        <!--Drop Down-->
+                        <ul class="drop-down-ul animated fadeIn">
+        
+                            <li class="flyout-right"><a href="#">AI&ML</a>
+                            <li class="flyout-right"><a href="#">Internet of Things (IOT)</a>
+                            <li class="flyout-right"><a href="#">DEVOPS & DATA SECURITY</a>
+                            <li class="flyout-right"><a href="#">MICROSOFT POWER PLATFORM</a>
+        
+        
+                            </li>
+                            <li class="flyout-right"><a href="#">WEB & APPS DEVELOPMENT</a><!--Flyout Right-->
+                                <ul class="animated fadeIn">
+                                    <li><a href="#">WEB DEVELOPMENT</a></li>
+                                    <li><a href="#">MOBILE DEVELOPMENT</a></li>
+        
+                                </ul>
+                            </li>
+        
+        
+        
+        
+        
+                        </ul>
+        
+        
+                    </li>
+        
+                    <li class="drop-down"><a href="#">Our Work</a></li>
+                    <li class="drop-down"><a href="#">Pricing</a></li>
+                    <li class="drop-down"><a href="#">Contact Us</a></li>
+                </ul>
+        
+            </div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-bars"
+                    aria-hidden="true"></i></span>
+            <!-- mobile menu bar end here  -->
+        </div>
+
+
+    </div>
+
+
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script>
+            $(function () {
+                $('.toggle-menu').click(function () {
+                    $('.exo-menu').toggleClass('display');
+
+                });
+
+            });
+        </script>
+    
+
+</body>
+
+</html>
